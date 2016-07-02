@@ -12,6 +12,9 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using FocusFinder2;
+
+
 
 namespace TroubleSniper
 {
@@ -23,6 +26,12 @@ namespace TroubleSniper
         public MainWindow()
         {
             InitializeComponent();
+        }
+
+        private void launch_focusfinder2_Click(object sender, RoutedEventArgs e)
+        {
+            FocusFinder2.Main_Program ff = new FocusFinder2.Main_Program();
+            ff.Show();
         }
     }
 }

@@ -5,8 +5,10 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:TroubleSniper"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="525">
+        Title="TroubleSniper" Height="350" Width="525">
     <Grid>
-        
+        <Button x:Name="launch_focusfinder2" Content="FocusFinder2" HorizontalAlignment="Left" Height="30" Margin="18,28,0,0" VerticalAlignment="Top" Width="82" Click="launch_focusfinder2_Click"/>
+        <TextBlock x:Name="description_focusfinder2" HorizontalAlignment="Left" Margin="145,28,0,0" TextWrapping="Wrap" Text="Used to detect focus changes. Useful for finding problems with focus changing unexpectedly. " VerticalAlignment="Top" Height="50" Width="342"/>
+
     </Grid>
 </Window>
