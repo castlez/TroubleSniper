@@ -13,8 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 using FocusFinder2;
-
-
+using System.Threading;
 
 namespace TroubleSniper
 {
@@ -30,8 +29,11 @@ namespace TroubleSniper
 
         private void launch_focusfinder2_Click(object sender, RoutedEventArgs e)
         {
-            FocusFinder2.Main_Program ff = new FocusFinder2.Main_Program();
-            ff.Show();
+            //FocusFinder2.Main_Program Focus_Finder2 = new Main_Program();
+            //Thread ff = new Thread(new ThreadStart(Focus_Finder2.Run));
+            //ff.Start(new Window());
+
+            //new Thread(FocusFinder2.Main_Program.)
         }
     }
 }

@@ -5,12 +5,19 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Diagnostics;
 using System.Windows.Automation;
+using System.Windows;
 
 namespace FocusFinder2
 {
-    public class Main_Program 
+    public class Main_Program
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
+        {
+            Main_Program ff = new Main_Program();
+            ff.Run(new Window());
+        }
+
+        public void Run(Window win)
         {
             Automation.AddAutomationFocusChangedEventHandler(OnFocusChangedHandler);
             Console.WriteLine("Monitoring... Hit enter to end.");
