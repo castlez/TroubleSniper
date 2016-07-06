@@ -96,9 +96,9 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\FocusFinder2\FocusFinder2_Deprecated.csproj">
-      <Project>{3d2470a7-97f3-4264-a1a6-17f822925810}</Project>
-      <Name>FocusFinder2_Deprecated</Name>
+    <ProjectReference Include="..\FocusFinder\FocusFinder.csproj">
+      <Project>{b4476e4d-04cf-406c-a256-b82c21b3d004}</Project>
+      <Name>FocusFinder</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
