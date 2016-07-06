@@ -7,6 +7,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TroubleSniper_Main", "Troub
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FocusFinder", "FocusFinder\FocusFinder.csproj", "{B4476E4D-04CF-406C-A256-B82C21B3D004}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{B8C06956-34DE-412E-9FF4-6B2B36F1EB54}"
+	ProjectSection(SolutionItems) = preProject
+		ADDINGMINIAPPS.txt = ADDINGMINIAPPS.txt
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

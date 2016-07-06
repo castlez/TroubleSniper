@@ -1,0 +1,10 @@
+						How to add to ToubleSniper
+							Jonathan Castle
+
+To add a mini-app to TroubleSniper, you must follow these steps:
+
+	1. Add mini-app project to the main TroubleSniper directory.
+	2. Add a reference to that project in the TroubleSniper_Main project. 
+	3. In the TroubleSniper_Main project, add a button, description, and onclick
+	   handler for the new mini-app (refer to existing mini-apps for reference)
+	

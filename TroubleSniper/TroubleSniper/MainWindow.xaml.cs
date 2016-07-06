@@ -29,14 +29,8 @@ namespace TroubleSniper
 
         private void launch_focusfinder2_Click(object sender, RoutedEventArgs e)
         {
-            //FocusFinder2.Main_Program Focus_Finder2 = new Main_Program();
-            //Thread ff = new Thread(new ThreadStart(Focus_Finder2.Run));
-            //ff.Start(new Window());
-
-            //new Thread(FocusFinder2.Main_Program.)
             FocusFinder.MainWindow ff = new FocusFinder.MainWindow();
             ff.Show();
-
         }
     }
 }
