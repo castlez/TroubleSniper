@@ -23,9 +23,11 @@ namespace FocusFinder
     public partial class MainWindow : Window
     {
         private System.Object lockThis = new System.Object();
+        int line;
         public MainWindow()
         {
             InitializeComponent();
+            line = 0;
             Automation.AddAutomationFocusChangedEventHandler(OnFocusChangedHandler);
         }
 
@@ -50,16 +52,16 @@ namespace FocusFinder
 
         private void OnFocusChangedHandler(object src, AutomationFocusChangedEventArgs args)
         {
-            WriteOut("Focus changed!\r\n");
+            WriteOut("----| Focus changed!\r\n");
+            
             AutomationElement element = src as AutomationElement;
             if (element != null)
             {
-                string name = element.Current.Name;
-                string id = element.Current.AutomationId;
                 int processId = element.Current.ProcessId;
                 using (Process process = Process.GetProcessById(processId))
                 {
-                    WriteOut( "            Process: " + process.ProcessName + "r\n");
+                    WriteOut(line.ToString("000") + "|            Process: " + process.ProcessName + "r\n");
+                    line++;
                 }
             }
         }
