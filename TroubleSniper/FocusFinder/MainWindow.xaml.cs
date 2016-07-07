@@ -1,4 +1,9 @@
-﻿using System;
+﻿//Copyright (c) 2016 Jonathan Castle
+//This software is licensed under "GPL v3" license, 
+//please see the file COPYING in this distribution for license information
+
+
+using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;

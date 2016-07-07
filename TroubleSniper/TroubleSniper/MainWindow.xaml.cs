@@ -10,6 +10,10 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
+//Copyright (c) 2016 Jonathan Castle
+//This software is licensed under "GPL v3" license, 
+//please see the file COPYING in this distribution for license information
+
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 using FocusFinder;
