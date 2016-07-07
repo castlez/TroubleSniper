@@ -3,14 +3,13 @@
 This software is licensed under something
 
 ## Description
-TroubleSniper is a trouble shooting application for windows 10 with a focus on finding problems with 
+TroubleSniper is a trouble shooting application for windows 10 with a focus on diagnosing problems with 
 video games. 
 
 
 ### How to launch & Use
 Locate the executable file called "TroubleSniper.exe" in the main directory (TroubleSniper). Upon launching
-the application, you will see a series of diagnostic mini-apps that can be launch simultaneously. These mini-
-apps each track a specific activity on your computer and report information about that activity to assist in 
+the application, you will see a series of diagnostic mini-apps that can be launch simultaneously. These mini-apps each track a specific activity on your computer and report information about that activity to assist in 
 finding causes of, and solutions to, the problem.
 
 
