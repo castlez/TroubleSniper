@@ -1,6 +1,6 @@
 # TroubleSniper
 #####Copyright (c) 2016 Jonathan Castle
-This software is licensed under something
+This software is licensed under "GPL v3" license, please see the file `COPYING` in this distribution for license information
 
 ## Description
 TroubleSniper is a trouble shooting application for windows 10 with a focus on diagnosing problems with 
