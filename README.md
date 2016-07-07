@@ -1,6 +1,6 @@
 # TroubleSniper
-####by Jonathan Castle
-
+#####Copyright (c) 2016 Jonathan Castle
+This software is licensed under something
 
 ## Description
 TroubleSniper is a trouble shooting application for windows 10 with a focus on finding problems with 
