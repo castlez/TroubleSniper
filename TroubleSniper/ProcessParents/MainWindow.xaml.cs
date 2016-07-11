@@ -29,7 +29,7 @@ namespace ProcessParents
         {
             InitializeComponent();
             var processes = Process.GetProcesses();
-
+            output_processes.Text = "PARENT\tCHILD\r\n";
             Each(processes, i => output_processes.Text += GetParentName(i) + "\r\n\t" + i.ProcessName.ToString() + "\r\n" );
 
         }
@@ -46,11 +46,29 @@ namespace ProcessParents
             var query = string.Format("SELECT ParentProcessId FROM Win32_Process WHERE ProcessId = {0}", myId);
             var search = new ManagementObjectSearcher("root\\CIMV2", query);
             var results = search.Get().GetEnumerator();
+            uint parentId;
             results.MoveNext();
-            var queryObj = results.Current;
-            var parentId = (uint)queryObj["ParentProcessId"];
-            var parent = Process.GetProcessById((int)parentId);
-            return parent.ProcessName;
+            try
+            {
+                var queryObj = results.Current;
+                parentId = (uint)queryObj["ParentProcessId"];
+            }
+            catch (Exception e)
+            {
+                return "No Parent";
+            }
+            
+            
+            try
+            {
+                var parent = Process.GetProcessById((int)parentId);
+                return parent.ProcessName;
+            }
+            catch(Exception e)
+            {
+                return "Parent not running";
+            }
+            
         }
     }
 }
