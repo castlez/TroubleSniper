@@ -12,6 +12,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		ADDINGMINIAPPS.txt = ADDINGMINIAPPS.txt
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProcessParents", "ProcessParents\ProcessParents.csproj", "{1609739A-CF7C-4F44-9F3A-74EA7B62F6CE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -26,6 +28,10 @@ Global
 		{B4476E4D-04CF-406C-A256-B82C21B3D004}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B4476E4D-04CF-406C-A256-B82C21B3D004}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B4476E4D-04CF-406C-A256-B82C21B3D004}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1609739A-CF7C-4F44-9F3A-74EA7B62F6CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1609739A-CF7C-4F44-9F3A-74EA7B62F6CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1609739A-CF7C-4F44-9F3A-74EA7B62F6CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1609739A-CF7C-4F44-9F3A-74EA7B62F6CE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

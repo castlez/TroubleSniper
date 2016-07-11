@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{678B1472-09BE-4EE8-8185-6401358CE5AD}</ProjectGuid>
+    <ProjectGuid>{1609739A-CF7C-4F44-9F3A-74EA7B62F6CE}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>TroubleSniper</RootNamespace>
-    <AssemblyName>TroubleSniper</AssemblyName>
+    <RootNamespace>ProcessParents</RootNamespace>
+    <AssemblyName>ProcessParents</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
@@ -94,16 +94,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\FocusFinder\FocusFinder.csproj">
-      <Project>{b4476e4d-04cf-406c-a256-b82c21b3d004}</Project>
-      <Name>FocusFinder</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\ProcessParents\ProcessParents.csproj">
-      <Project>{1609739a-cf7c-4f44-9f3a-74ea7b62f6ce}</Project>
-      <Name>ProcessParents</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

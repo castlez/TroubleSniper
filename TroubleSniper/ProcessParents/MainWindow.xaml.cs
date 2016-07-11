@@ -15,11 +15,8 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
-using FocusFinder;
-using ProcessParents;
-using System.Threading;
 
-namespace TroubleSniper
+namespace ProcessParents
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml
@@ -29,18 +26,6 @@ namespace TroubleSniper
         public MainWindow()
         {
             InitializeComponent();
-        }
-
-        private void launch_focusfinder2_Click(object sender, RoutedEventArgs e)
-        {
-            FocusFinder.MainWindow ff = new FocusFinder.MainWindow();
-            ff.Show();
-        }
-
-        private void launch_processparents_Click(object sender, RoutedEventArgs e)
-        {
-            ProcessParents.MainWindow pp = new ProcessParents.MainWindow();
-            pp.Show();
         }
     }
 }
