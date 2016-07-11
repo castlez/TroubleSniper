@@ -5,8 +5,8 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ProcessParents"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="525">
+        Title="ProcessParents" Height="350" Width="525">
     <Grid>
-        
+        <TextBox x:Name="output_processes" HorizontalAlignment="Left" Height="302" Margin="10,10,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="500"/>
     </Grid>
 </Window>
