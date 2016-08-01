@@ -21,7 +21,7 @@ using System.Management;
 namespace ProcessParents
 {
     /// <summary>
-    /// Interaction logic for MainWindow.xaml
+    /// Interaction logic for ProcessParents
     /// </summary>
     public partial class MainWindow : Window
     {

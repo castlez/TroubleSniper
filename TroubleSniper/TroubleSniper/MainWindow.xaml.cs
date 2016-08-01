@@ -22,7 +22,7 @@ using System.Threading;
 namespace TroubleSniper
 {
     /// <summary>
-    /// Interaction logic for MainWindow.xaml
+    /// Interaction logic TroubleSniper
     /// </summary>
     public partial class MainWindow : Window
     {

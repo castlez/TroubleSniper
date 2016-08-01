@@ -23,7 +23,7 @@ using System.Windows.Shapes;
 namespace FocusFinder
 {
     /// <summary>
-    /// Interaction logic for MainWindow.xaml
+    /// Interaction logic for FocusFinder
     /// </summary>
     public partial class MainWindow : Window
     {
@@ -35,6 +35,7 @@ namespace FocusFinder
             line = 0;
             Automation.AddAutomationFocusChangedEventHandler(OnFocusChangedHandler);
         }
+
 
         private void WriteOut(string text)
         {
