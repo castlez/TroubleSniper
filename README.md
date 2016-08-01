@@ -6,11 +6,15 @@ This software is licensed under "GPL v3" license, please see the file `COPYING` 
 TroubleSniper is a trouble shooting application for windows 10 with a focus on diagnosing problems with 
 video games. 
 
-[Issue Tracker](https://trello.com/b/9K0MreL6/troublesniper)
-Please file issues on the github repo, and they will be added to Trello at the authors descretion.
+## Support & Contact
 
-## Support
 This software is intended for use on the Windows 10 operating systems.
+
+The author can be reached at castlez93@gmail.com
+
+[Issue Tracker](https://trello.com/b/9K0MreL6/troublesniper)
+
+Please file issues on the github repo, and they will be added to Trello at the authors descretion.
 
 ### How to launch & Use
 Locate the executable file called "TroubleSniper.exe" in the main directory (currently this executable is in the "TroubleSniper\TroubleSniper\bin\Debug" directory). Upon launching
