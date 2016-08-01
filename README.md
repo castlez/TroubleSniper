@@ -6,6 +6,8 @@ This software is licensed under "GPL v3" license, please see the file `COPYING` 
 TroubleSniper is a trouble shooting application for windows 10 with a focus on diagnosing problems with 
 video games. 
 
+## Support
+This software is intended for use on the Windows 10 operating systems.
 
 ### How to launch & Use
 Locate the executable file called "TroubleSniper.exe" in the main directory (currently this executable is in the "TroubleSniper\TroubleSniper\bin\Debug" directory). Upon launching
@@ -17,3 +19,6 @@ finding causes of, and solutions to, the problem.
 #### 1. FocusFinder
 Reports changes in focus between processes. Can be used to diagnose random focus changes, and invisible windows
 changing focus. Common problems this can help with include a random focus change to desktop when trying to play a game.
+
+#### 2. ProcessParents
+Lists running processes and their parent process (process that launched it). Used to find the origin of mysterious windows and dialogues.
