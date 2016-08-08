@@ -1,5 +1,5 @@
 # TroubleSniper
-#####Copyright (c) 2016 [Jonathan Castle](castlez.github.io)
+#####Copyright (c) 2016 [Jonathan Castle](http://castlez.github.io)
 This software is licensed under "GPL v3" license, please see the file `COPYING` in this distribution for license information
 
 ## Description
