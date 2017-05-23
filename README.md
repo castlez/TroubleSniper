@@ -31,3 +31,9 @@ Reports changes in focus between processes. Can be used to diagnose random focus
 #### 2. ProcessParents
 
 Lists running processes and their parent process (process that launched it). Used to find the origin of mysterious window and dialogues.
+
+## Future Mini-Apps  
+These are mini-apps I intend on implementing in the future. Let me know if you want one of them sooner and I can either implement it or help you implement it!  
+
+#### 1. SeeInTM
+SeeIn(T)ask(M)anager. A service that adds an option to every windows context menu (specifically the top bar with exit, minimize and window size) to view the program in task manager's detail view. Can be helpful when a window doesnt have a title or the title is different than what it is called in task manager.
